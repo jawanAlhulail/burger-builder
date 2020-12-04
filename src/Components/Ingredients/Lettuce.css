@@ -1,0 +1,71 @@
+.Lettuce {
+  height: 10px;
+  width: 590px;
+  background-color: rgb(47, 194, 47);
+  margin: 5px;
+}
+.Tomato {
+  height: 13px;
+  width: 190px;
+  background-color: rgb(238, 69, 57);
+  margin: 5px;
+  border-radius: 10px;
+}
+.Tomatos {
+  display: flex;
+}
+.Cheese {
+  height: 10px;
+  width: 590px;
+  background-color: rgb(250, 246, 33);
+  margin: 5px;
+}
+.Meat {
+  height: 50px;
+  width: 590px;
+  background-color: rgb(70, 30, 12);
+  margin: 5px;
+  border-radius: 12px;
+}
+.specielSuace {
+  height: 10px;
+  width: 590px;
+  background-color: rgb(250, 176, 78);
+  margin: 5px;
+}
+@media only screen and (max-width: 600px) {
+  .Lettuce {
+    height: 10px;
+    width: 290px;
+    background-color: rgb(47, 194, 47);
+    margin: 5px;
+  }
+  .Tomato {
+    height: 13px;
+    width: 90px;
+    background-color: rgb(238, 69, 57);
+    margin: 5px;
+  }
+  .Tomatos {
+    display: flex;
+  }
+  .Cheese {
+    height: 10px;
+    width: 290px;
+    background-color: rgb(250, 246, 33);
+    margin: 5px;
+  }
+  .Meat {
+    height: 50px;
+    width: 290px;
+    background-color: rgb(70, 30, 12);
+    margin: 5px;
+    border-radius: 8px;
+  }
+  .specielSuace {
+    height: 10px;
+    width: 290px;
+    background-color: rgb(250, 176, 78);
+    margin: 5px;
+  }
+}
